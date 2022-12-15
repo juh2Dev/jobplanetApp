@@ -48,6 +48,18 @@ extension RecommendRecruitCell: UICollectionViewDelegateFlowLayout,  UICollectio
             cell.setData(data)
         }
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let recruit: Recruit = data?.recommendRecruit[indexPath.row] {
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            if let recruitDetailVC: RecruitDatailViewController = mainStoryboard.instantiateViewController(withIdentifier: "RecruitDatailViewController") as? RecruitDatailViewController {
+                recruitDetailVC.recruit = recruit
+                if let rootViewController: UIViewController = self.window?.rootViewController{
+                    rootViewController.present(recruitDetailVC, animated: true, completion: nil)
+                }
+            }
+        }
         
     }
 }
