@@ -15,6 +15,8 @@
 <br>
 
 
+### 메인화면
+
 <table>
   <tr>
     <td>
@@ -28,12 +30,12 @@
      <td>
       <img src="https://velog.velcdn.com/images/juh2/post/6400f151-5791-46da-939c-25f89ed1bb66/image.png">
     </td>
-    
   </tr>
+  
   <tr>
-    <td >메인 화면</td>
-        <td>검색 결과 화면</td>
-        <td>검색 결과가 없을 경우 화면</td>
+    <td>메인 화면</td>
+    <td> 검색 결과 화면</td>
+    <td> 검색 결과가 없을 경우 화면</td>
   </tr>
 </table>
 
