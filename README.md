@@ -17,25 +17,23 @@
 
 ### 메인화면
 
+
 <table>
   <tr>
     <td>
       <img src="https://velog.velcdn.com/images/juh2/post/5a716217-f038-4c8e-9f60-aad0c5d47095/image.png">
     </td>
-    
     <td>
       <img src="https://velog.velcdn.com/images/juh2/post/c210f830-089d-4ea6-ac75-89235e42e9e4/image.png">
     </td>
-    
      <td>
       <img src="https://velog.velcdn.com/images/juh2/post/6400f151-5791-46da-939c-25f89ed1bb66/image.png">
     </td>
   </tr>
-  
   <tr>
-    <td>메인 화면</td>
-    <td> 검색 결과 화면</td>
-    <td> 검색 결과가 없을 경우 화면</td>
+    <td >메인 화면</td>
+        <td>검색 결과 화면</td>
+        <td>검색 결과가 없을 경우 화면</td>
   </tr>
 </table>
 
