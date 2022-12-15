@@ -11,7 +11,9 @@
 - Architecture : MVVM
 - 사용 라이브러리 : Kingfisher, RxCocoa, RxSwift
 
+
 <br>
+
 
 <table>
   <tr>
@@ -34,6 +36,8 @@
         <td>검색 결과가 없을 경우 화면</td>
   </tr>
 </table>
+
+
 
 검색어를 입력 후, 키보드의 검색 버튼을 눌르시면 검색됩니다.
 채용, 기업탭 버튼을 누르시면 다시 모든 목록이 나타납니다.
